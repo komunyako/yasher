@@ -1,0 +1,42 @@
+.yasher {
+   overflow hidden
+   .transition {
+      transition transform .3s ease-out
+   }
+   &-wrapper {
+      position relative
+   }
+   &-nav {
+      &-prev,
+      &-next {
+         transition all .3s .2s ease-out
+      }
+      &-prev {
+         ^[0].at-left & {
+            opacity 0
+         }
+      }
+      &-next {
+         ^[0].at-right & {
+            opacity 0
+         }
+      }
+   }
+   &-list {
+      position relative
+      margin 0 auto
+      &-wrap {
+         margin 0 -20px
+      }
+      &-items {
+         display flex
+         position relative
+      }
+   }
+   &-item {
+      box-sizing border-box
+      flex 0 0 100%
+      max-width calc(100% - 40px)
+      margin 0 20px
+   }
+}

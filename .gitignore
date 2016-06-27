@@ -1,0 +1,31 @@
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+thumbs.db
+
+/node_modules/
+/bower_components/
+/lib/model/om/
+/lib/model/map/
+/lib/vendor/
+/cache/
+/log/
+/data/
+/plugins/
+/composer.phar
+/composer.lock
+/config/databases.yml
+/source/etc/*.styl
+/*.bat
+/*.sh
+
+!/data/fixtures/fixtures.yml
+
+### Vagrant ###
+/Vagrantfile
+/.vagrant
+
+###Visual studio 2015###
+*.phpproj
+*.sln
+/.vs

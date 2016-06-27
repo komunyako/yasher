@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-csso": "^1.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-stylus": "^2.0.2",
+    "gulp-twig": "^0.3.0",
+    "gulp-typescript": "^2.8.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4",
+    "gulp.spritesmith": "^3.6.1",
+    "main-bower-files": "^2.8.0",
+    "merge-stream": "^0.1.7",
+    "nib": "^1.1.0",
+    "run-sequence": "^1.1.0",
+    "streamqueue": "^1.1.0",
+    "stylus-phast": "~0",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0"
+  }
+}
