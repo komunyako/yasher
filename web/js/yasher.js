@@ -234,7 +234,7 @@ function EventBurrito(_this, options) {
 
             var $main = $yasher.find('.yasher-list');
             var $mainIn = $main.find('.yasher-list-items');
-            var $mainItems = $main.find('.yasher-item');
+            var $mainItems = $mainIn.find('.yasher-item');
             var $nav = $yasher.find('.yasher-nav');
             var vars = {
                 burrito: data.burrito ? data.burrito : null,
@@ -434,6 +434,8 @@ function EventBurrito(_this, options) {
 
                 $W.on('resize'+nameSpace, function (e) {
                     methods.update();
+                }).one('load'+nameSpace, function (e) {
+                    methods.update(0);
                 });
 
                 $nav.on('click'+nameSpace, '.yasher-nav-prev', function (e) {
