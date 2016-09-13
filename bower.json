@@ -17,8 +17,9 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "jquery": "~3.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "1.x"
   },
   "overrides": {}
 }
