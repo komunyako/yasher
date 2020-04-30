@@ -3,7 +3,9 @@
   "version": "0.2.1",
   "main": "./assets/js/yasher.js",
   "author": "Max Savchenko <max.kanda@gmail.com>",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-csso": "^1.0.0",
@@ -21,8 +23,5 @@
     "streamqueue": "^1.1.0",
     "stylus-phast": "~0",
     "through": "^2.3.8"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.8.0"
   }
 }
