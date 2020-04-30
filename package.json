@@ -1,4 +1,8 @@
 {
+  "name": "yasher",
+  "version": "0.2.1",
+  "main": "./assets/js/yasher.js",
+  "author": "Max Savchenko <max.kanda@gmail.com>",
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
