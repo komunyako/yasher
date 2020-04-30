@@ -183,7 +183,7 @@
                 var _diffW = 0;
                 var _startX = 0;
 
-                vars.burrito = EventBurrito($main[0], {
+                vars.burrito = window.EventBurrito($main[0], {
                     mouse: true,
                     preventDefault: true,
                     start: function (event, start, diff, speed) {
